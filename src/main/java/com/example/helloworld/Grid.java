@@ -10,7 +10,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 public class Grid extends Application {
@@ -29,7 +28,7 @@ public class Grid extends Application {
             }
         });
 
-        StackPane root = new StackPane();
+
         GridPane gridPane = new GridPane();
         TextField texto1 = new TextField();
         TextField texto2 = new TextField();
